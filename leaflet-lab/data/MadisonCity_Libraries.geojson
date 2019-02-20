@@ -1,0 +1,405 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.5177,43.0761 ]
+    },
+    "properties": {
+    "FID":0,
+    "Shape":"Point",
+    "OBJECTID":522,
+    "ADDRESS":"733 N High Point Rd",
+    "ZipCode":53717,
+    "LONG_NAME":"Alicia Ashman Branch Library",
+    "SHORT_NAME":"Alicia Ashman",
+    "PhoneNo.":6088241780,
+    "OpenHour_Monday":"9~9",
+    "OpenHour_Tuesday":"9~9",
+    "OpenHour_Wednesday":"9~9",
+    "OpenHour_Thursday":"9~9",
+    "OpenHour_Friday":"9~9",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"Close",
+    "GoogleMapReview":4.2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4791,43.0325 ]
+    },
+    "properties": {
+    "FID":1,
+    "Shape":"Point",
+    "OBJECTID":523,
+    "ADDRESS":"5726 Raymond Rd",
+    "ZipCode":53711,
+    "LONG_NAME":"Meadowridge Branch Library",
+    "SHORT_NAME":"Meadowridge",
+    "PhoneNo.":6082886160,
+    "OpenHour_Monday":"10~8",
+    "OpenHour_Tuesday":"10~8",
+    "OpenHour_Wednesday":"10~8",
+    "OpenHour_Thursday":"10~8",
+    "OpenHour_Friday":"10~8",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"Close",
+    "GoogleMapReview":4.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.3944,43.0413 ]
+    },
+    "properties": {
+    "FID":2,
+    "Shape":"Point",
+    "OBJECTID":524,
+    "ADDRESS":"2222 S Park St",
+    "ZipCode":53713,
+    "LONG_NAME":"Goodman South Madison Branch Library",
+    "SHORT_NAME":"South Madison",
+    "PhoneNo.":6082666395,
+    "OpenHour_Monday":"10~8",
+    "OpenHour_Tuesday":"10~8",
+    "OpenHour_Wednesday":"10~8",
+    "OpenHour_Thursday":"10~8",
+    "OpenHour_Friday":"10~8",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"Close",
+    "GoogleMapReview":4.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4152,43.0659 ]
+    },
+    "properties": {
+    "FID":3,
+    "Shape":"Point",
+    "OBJECTID":525,
+    "ADDRESS":"1705 Monroe St",
+    "ZipCode":53711,
+    "LONG_NAME":"Monroe Street Brach Library",
+    "SHORT_NAME":"Monroe Street",
+    "PhoneNo.":6082666390,
+    "OpenHour_Monday":"10~8",
+    "OpenHour_Tuesday":"10~8",
+    "OpenHour_Wednesday":"10~8",
+    "OpenHour_Thursday":"Close",
+    "OpenHour_Friday":"10~6",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"Close",
+    "GoogleMapReview":4.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.3874,43.0738 ]
+    },
+    "properties": {
+    "FID":4,
+    "Shape":"Point",
+    "OBJECTID":526,
+    "ADDRESS":"201 W Mifflin St",
+    "ZipCode":53703,
+    "LONG_NAME":"Central Library",
+    "SHORT_NAME":"Central",
+    "PhoneNo.":6082666300,
+    "OpenHour_Monday":"9~9",
+    "OpenHour_Tuesday":"9~9",
+    "OpenHour_Wednesday":"9~9",
+    "OpenHour_Thursday":"9~9",
+    "OpenHour_Friday":"9~6",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"1~5 (Sep 9, 2018 - May 26, 2019)",
+    "GoogleMapReview":4.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.3623,43.1277 ]
+    },
+    "properties": {
+    "FID":5,
+    "Shape":"Point",
+    "OBJECTID":527,
+    "ADDRESS":"2845 N Sherman Ave",
+    "ZipCode":53704,
+    "LONG_NAME":"Lakeview Branch Library",
+    "SHORT_NAME":"Lakeview",
+    "PhoneNo.":6082464547,
+    "OpenHour_Monday":"10~8",
+    "OpenHour_Tuesday":"10~8",
+    "OpenHour_Wednesday":"10~8",
+    "OpenHour_Thursday":"10~8",
+    "OpenHour_Friday":"10~8",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"Close",
+    "GoogleMapReview":4.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.3463,43.1015 ]
+    },
+    "properties": {
+    "FID":6,
+    "Shape":"Point",
+    "OBJECTID":528,
+    "ADDRESS":"2707 E Washington Ave",
+    "ZipCode":53704,
+    "LONG_NAME":"Hawthorne Brach Library",
+    "SHORT_NAME":"Hawthorne",
+    "PhoneNo.":6082464548,
+    "OpenHour_Monday":"10~8",
+    "OpenHour_Tuesday":"10~8",
+    "OpenHour_Wednesday":"10~8",
+    "OpenHour_Thursday":"10~8",
+    "OpenHour_Friday":"10~8",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"Close",
+    "GoogleMapReview":4.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.3228,43.0833 ]
+    },
+    "properties": {
+    "FID":7,
+    "Shape":"Point",
+    "OBJECTID":529,
+    "ADDRESS":"204 Cottage Grove Rd",
+    "ZipCode":53716,
+    "LONG_NAME":"Pinney Branch Library",
+    "SHORT_NAME":"Pinney",
+    "PhoneNo.":6082247100,
+    "OpenHour_Monday":"9~9",
+    "OpenHour_Tuesday":"9~9",
+    "OpenHour_Wednesday":"9~9",
+    "OpenHour_Thursday":"9~9",
+    "OpenHour_Friday":"9~9",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"1~5 (Sep 9, 2018 - May 26, 2019)",
+    "GoogleMapReview":4.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4506,43.0538 ]
+    },
+    "properties": {
+    "FID":8,
+    "Shape":"Point",
+    "OBJECTID":530,
+    "ADDRESS":"4340 Tokay Blvd",
+    "ZipCode":53711,
+    "LONG_NAME":"Sequoya Branch Library",
+    "SHORT_NAME":"Sequoya",
+    "PhoneNo.":6082666385,
+    "OpenHour_Monday":"9~9",
+    "OpenHour_Tuesday":"9~9",
+    "OpenHour_Wednesday":"9~9",
+    "OpenHour_Thursday":"9~9",
+    "OpenHour_Friday":"9~9",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"1~5 (Sep 9, 2018 - May 26, 2019)",
+    "GoogleMapReview":4.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4249,43.0016 ]
+    },
+    "properties": {
+    "FID":9,
+    "Shape":"Point",
+    "OBJECTID":531,
+    "ADDRESS":"5530 Lacy Rd",
+    "ZipCode":53711,
+    "LONG_NAME":"Fitchburg Public Library",
+    "SHORT_NAME":"Fitchburg",
+    "PhoneNo.":6087291760,
+    "OpenHour_Monday":"9~9",
+    "OpenHour_Tuesday":"9~9",
+    "OpenHour_Wednesday":"9~9",
+    "OpenHour_Thursday":"9~9",
+    "OpenHour_Friday":"10~6",
+    "OpenHour_Saturday":"10~6",
+    "OpenHour_Sunday":"1~5",
+    "GoogleMapReview":4.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.2882,43.0136 ]
+    },
+    "properties": {
+    "FID":10,
+    "Shape":"Point",
+    "OBJECTID":532,
+    "ADDRESS":"5920 Milwaukee St",
+    "ZipCode":53558,
+    "LONG_NAME":"McFarland Public Library",
+    "SHORT_NAME":"McFarland",
+    "PhoneNo.":6088389030,
+    "OpenHour_Monday":"9~8",
+    "OpenHour_Tuesday":"9~8",
+    "OpenHour_Wednesday":"9~8",
+    "OpenHour_Thursday":"9~8",
+    "OpenHour_Friday":"9~5.30",
+    "OpenHour_Saturday":"9~5.30",
+    "OpenHour_Sunday":"12~4",
+    "GoogleMapReview":4.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.5094,43.095 ]
+    },
+    "properties": {
+    "FID":11,
+    "Shape":"Point",
+    "OBJECTID":533,
+    "ADDRESS":"7425 Hubbard Ave",
+    "ZipCode":53562,
+    "LONG_NAME":"Middleton Public Library",
+    "SHORT_NAME":"Middleton",
+    "PhoneNo.":6088315564,
+    "OpenHour_Monday":"9~9",
+    "OpenHour_Tuesday":"9~9",
+    "OpenHour_Wednesday":"9~9",
+    "OpenHour_Thursday":"9~9",
+    "OpenHour_Friday":"9~6",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"1~5 Through May 19, 2019)",
+    "GoogleMapReview":4.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.3406,43.0628 ]
+    },
+    "properties": {
+    "FID":12,
+    "Shape":"Point",
+    "OBJECTID":534,
+    "ADDRESS":"1000 Nichols Rd",
+    "ZipCode":53716,
+    "LONG_NAME":"Monona Public Library",
+    "SHORT_NAME":"Monona",
+    "PhoneNo.":6082226127,
+    "OpenHour_Monday":"9~8",
+    "OpenHour_Tuesday":"9~8",
+    "OpenHour_Wednesday":"9~8",
+    "OpenHour_Thursday":"9~6",
+    "OpenHour_Friday":"9~6",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"1~5 (Sep 9, 2018 - May 26, 2019)",
+    "GoogleMapReview":4.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.2355,43.1757 ]
+    },
+    "properties": {
+    "FID":13,
+    "Shape":"Point",
+    "OBJECTID":535,
+    "ADDRESS":"1350 Linnerud Dr",
+    "ZipCode":53590,
+    "LONG_NAME":"Sun Prairie Public Library",
+    "SHORT_NAME":"Sun Prairie",
+    "PhoneNo.":6088257323,
+    "OpenHour_Monday":"9~9",
+    "OpenHour_Tuesday":"9~9",
+    "OpenHour_Wednesday":"9~9",
+    "OpenHour_Thursday":"9~9",
+    "OpenHour_Friday":"9~6",
+    "OpenHour_Saturday":"9~5",
+    "OpenHour_Sunday":"1~5 (Sep 9, 2018 - May 26, 2019)",
+    "GoogleMapReview":4.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.528,42.9974 ]
+    },
+    "properties": {
+    "FID":14,
+    "Shape":"Point",
+    "OBJECTID":536,
+    "ADDRESS":"500 Silent St",
+    "ZipCode":53593,
+    "LONG_NAME":"Verona Public Library",
+    "SHORT_NAME":"Verona",
+    "PhoneNo.":6088457180,
+    "OpenHour_Monday":"9~9",
+    "OpenHour_Tuesday":"9~9",
+    "OpenHour_Wednesday":"9~9",
+    "OpenHour_Thursday":"9~9",
+    "OpenHour_Friday":"9~6",
+    "OpenHour_Saturday":"9~4",
+    "OpenHour_Sunday":"1~5 (Sep 9, 2018 - May 26, 2019)",
+    "GoogleMapReview":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4558,43.185 ]
+    },
+    "properties": {
+    "FID":15,
+    "Shape":"Point",
+    "OBJECTID":537,
+    "ADDRESS":"710 South St",
+    "ZipCode":53597,
+    "LONG_NAME":"Waunakee Public Library",
+    "SHORT_NAME":"Waunakee",
+    "PhoneNo.":6088494217,
+    "OpenHour_Monday":"9~9",
+    "OpenHour_Tuesday":"9~9",
+    "OpenHour_Wednesday":"9~9",
+    "OpenHour_Thursday":"9~9",
+    "OpenHour_Friday":"9~5",
+    "OpenHour_Saturday":"10~5",
+    "OpenHour_Sunday":"Close",
+    "GoogleMapReview":4.3
+    }
+  }
+]
+}

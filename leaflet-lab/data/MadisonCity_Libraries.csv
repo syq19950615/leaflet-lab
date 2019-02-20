@@ -1,0 +1,17 @@
+﻿FID,Shape,OBJECTID,lattitude,longitude,ADDRESS,ZipCode,LONG_NAME,SHORT_NAME,PhoneNo.,OpenHour_Monday,OpenHour_Tuesday,OpenHour_Wednesday,OpenHour_Thursday,OpenHour_Friday,OpenHour_Saturday,OpenHour_Sunday,GoogleMapReview
+0,Point,522,43.0761,-89.5177,733 N High Point Rd,53717,Alicia Ashman Branch Library,Alicia Ashman,6088241780,9~9,9~9,9~9,9~9,9~9,9~5,Close,4.2
+1,Point,523,43.0325,-89.4791,5726 Raymond Rd,53711,Meadowridge Branch Library,Meadowridge,6082886160,10~8,10~8,10~8,10~8,10~8,9~5,Close,4.8
+2,Point,524,43.0413,-89.3944,2222 S Park St,53713,Goodman South Madison Branch Library,South Madison,6082666395,10~8,10~8,10~8,10~8,10~8,9~5,Close,4.1
+3,Point,525,43.0659,-89.4152,1705 Monroe St,53711,Monroe Street Brach Library,Monroe Street,6082666390,10~8,10~8,10~8,Close,10~6,9~5,Close,4.8
+4,Point,526,43.0738,-89.3874,201 W Mifflin St,53703,Central Library,Central,6082666300,9~9,9~9,9~9,9~9,9~6,9~5,"1~5 (Sep 9, 2018 - May 26, 2019)",4.6
+5,Point,527,43.1277,-89.3623,2845 N Sherman Ave,53704,Lakeview Branch Library,Lakeview,6082464547,10~8,10~8,10~8,10~8,10~8,9~5,Close,4.3
+6,Point,528,43.1015,-89.3463,2707 E Washington Ave,53704,Hawthorne Brach Library,Hawthorne,6082464548,10~8,10~8,10~8,10~8,10~8,9~5,Close,4.1
+7,Point,529,43.0833,-89.3228,204 Cottage Grove Rd,53716,Pinney Branch Library,Pinney,6082247100,9~9,9~9,9~9,9~9,9~9,9~5,"1~5 (Sep 9, 2018 - May 26, 2019)",4.6
+8,Point,530,43.0538,-89.4506,4340 Tokay Blvd,53711,Sequoya Branch Library,Sequoya,6082666385,9~9,9~9,9~9,9~9,9~9,9~5,"1~5 (Sep 9, 2018 - May 26, 2019)",4.8
+9,Point,531,43.0016,-89.4249,5530 Lacy Rd,53711,Fitchburg Public Library,Fitchburg,6087291760,9~9,9~9,9~9,9~9,10~6,10~6,1~5,4.7
+10,Point,532,43.0136,-89.2882,5920 Milwaukee St,53558,McFarland Public Library,McFarland,6088389030,9~8,9~8,9~8,9~8,9~5.30,9~5.30,12~4,4.8
+11,Point,533,43.095,-89.5094,7425 Hubbard Ave,53562,Middleton Public Library,Middleton,6088315564,9~9,9~9,9~9,9~9,9~6,9~5,"1~5 Through May 19, 2019)",4.8
+12,Point,534,43.0628,-89.3406,1000 Nichols Rd,53716,Monona Public Library,Monona,6082226127,9~8,9~8,9~8,9~6,9~6,9~5,"1~5 (Sep 9, 2018 - May 26, 2019)",4.6
+13,Point,535,43.1757,-89.2355,1350 Linnerud Dr,53590,Sun Prairie Public Library,Sun Prairie,6088257323,9~9,9~9,9~9,9~9,9~6,9~5,"1~5 (Sep 9, 2018 - May 26, 2019)",4.5
+14,Point,536,42.9974,-89.528,500 Silent St,53593,Verona Public Library,Verona,6088457180,9~9,9~9,9~9,9~9,9~6,9~4,"1~5 (Sep 9, 2018 - May 26, 2019)",5
+15,Point,537,43.185,-89.4558,710 South St,53597,Waunakee Public Library,Waunakee,6088494217,9~9,9~9,9~9,9~9,9~5,10~5,Close,4.3
