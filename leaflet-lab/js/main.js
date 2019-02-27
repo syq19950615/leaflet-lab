@@ -1,11 +1,11 @@
-/* Map of GeoJSON data from MegaCities.geojson */
+//Main JavaScript by Yuqi Shi, 2019
 
 //function to instantiate the Leaflet map
 function createMap(){
     //create the map
     var map = L.map('mapid', {
-        center: [43.09, -89.39],
-        zoom: 10
+        center: [20, 0],
+        zoom: 2
     });
 
     //add OSM base tilelayer
@@ -17,36 +17,62 @@ function createMap(){
     getData(map);
 };
 
-//added at Example 2.3 line 20...function to attach popups to each mapped feature
-function onEachFeature(feature, layer) {
-    //no property named popupContent; instead, create html string with all properties
-    var popupContent = "";
-    if (feature.properties) {
-        //loop to add feature property names and values to html string
-        for (var property in feature.properties){
-            popupContent += "<p>" + property + ": " + feature.properties[property] + "</p>";
-        }
-        layer.bindPopup(popupContent);
+//Step 3: Add circle markers for point features to the map
+function createPropSymbols(data, map){
+	//Step 4: Determine which attribute to visualize with proportional symbols
+    var attribute = "yr2010";
+    //create marker options
+    var geojsonMarkerOptions = {
+        radius: 8,
+        fillColor: "#ff7800",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
     };
+
+    //create a Leaflet GeoJSON layer and add it to the map
+    L.geoJson(data, {
+        pointToLayer: function (feature, latlng) {
+            //Step 5: For each feature, determine its value for the selected attribute
+            var attValue = Number(feature.properties[attribute]);
+
+            //Step 6: Give each feature's circle marker a radius based on its attribute value
+            geojsonMarkerOptions.radius = calcPropRadius(attValue);
+
+            //create circle markers
+            return L.circleMarker(latlng, geojsonMarkerOptions);
+        }
+    }).addTo(map);
 };
 
-//function to retrieve the data and place it on the map
+//calculate the radius of each proportional symbol
+function calcPropRadius(attValue) {
+    //scale factor to adjust symbol size evenly
+    var scaleFactor = 50;
+    //area based on attribute value and scale factor
+    var area = attValue * scaleFactor;
+    //radius calculated based on area
+    var radius = Math.sqrt(area/Math.PI);
+
+    return radius;
+};
+
+//Step 2: Import GeoJSON data
 function getData(map){
     //load the data
-    $.ajax("data/MadisonCity_Libraries.geojson", {
+    $.ajax("data/CityPop.geojson", {
         dataType: "json",
         success: function(response){
-
-            //create a Leaflet GeoJSON layer and add it to the map
-            L.geoJson(response, {
-                onEachFeature: onEachFeature
-            }).addTo(map);
+            //call function to create proportional symbols
+            createPropSymbols(response, map);
         }
     });
 };
 
-$(document).ready(createMap);
 
+
+$(document).ready(createMap);
 
  
 
