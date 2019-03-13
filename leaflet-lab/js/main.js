@@ -39,6 +39,7 @@ function getData(map){
 function processData(data){
     //empty array to hold attributes
     var attributes = [];
+	var featLayer;
 
     //properties of the first feature in the dataset
     var properties = data.features[0].properties;
@@ -60,10 +61,12 @@ function processData(data){
 //Add circle markers for point features to the map
 function createPropSymbols(data, map, attributes){
     //create a Leaflet GeoJSON layer and add it to the map
-    L.geoJson(data, {
+    featLayer = L.geoJson(data, {
+
         pointToLayer: function(feature, latlng){
             return pointToLayer(feature, latlng, attributes);
-        }
+        },
+		
     }).addTo(map);
 };
 
@@ -238,18 +241,37 @@ function calcPropRadius(attValue) {
 //function to create search operator
 function createSearchOperator (map, featCollection){
 	//create search layer
-	var searchLayer = new L.LayerGroup();
-	map.eachLayer(function(layer){
-		searchLayer.addLayer(layer);
+	var featuresLayer = new L.LayerGroup({
+		style: function(feature) {
+			return {color: feature.properties.color }
+		},
 	});
-	map.addLayer(searchLayer);
+	
+	map.eachLayer(function(layer){
+		featuresLayer.addLayer(layer);
+	});
+	map.addLayer(featuresLayer);
 	
 	//create search control
 	var searchControl = new L.Control.Search({
-		layer: searchLayer,
+		layer: featuresLayer,
 		propertyName: "label",
 		marker: false,
 		zoom: 4,
+	});
+	searchControl.on('search:locationfound', function(e) {
+		
+		//set new feature color
+		e.layer.setStyle({fillColor: '#3f0', color: '#000'});
+		if(e.layer._popup)
+			e.layer.openPopup();
+
+	}).on('search:collapsed', function(e) {
+		
+		//restore feature color
+		featLayer.eachLayer(function(layer) {	
+			featLayer.resetStyle(layer);
+		});
 	});
 	
 	map.addControl( searchControl ); 
