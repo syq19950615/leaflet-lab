@@ -4,7 +4,7 @@
 
 #mapid {
     height: 400px;
-    width: 70%;
+    width: 100%;
     display: inline-block;
 }
 
@@ -17,8 +17,28 @@
     line-height: 42px;
 }
 
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
 .range-slider {
-    width: 50%;
+    width: 200px;
+}
+
+.legend-control-container {
+	width: 180px;
+    height: 120px;
+	background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;	
 }
 
 #forward {
